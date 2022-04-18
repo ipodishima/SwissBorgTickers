@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */; };
+		E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E63280CE5B100BC4A42 /* ContentView.swift */; };
+		E0E35E66280CE5B200BC4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E35E65280CE5B200BC4A42 /* Assets.xcassets */; };
+		E0E35E69280CE5B200BC4A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */; };
+		E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */; };
+		E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */; };
+		E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E35E6F280CE5B200BC4A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E35E56280CE5B100BC4A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E35E5D280CE5B100BC4A42;
+			remoteInfo = SwissborgTickers;
+		};
+		E0E35E79280CE5B200BC4A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E35E56280CE5B100BC4A42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E35E5D280CE5B100BC4A42;
+			remoteInfo = SwissborgTickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissborgTickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersApp.swift; sourceTree = "<group>"; };
+		E0E35E63280CE5B100BC4A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0E35E65280CE5B200BC4A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissborgTickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersTests.swift; sourceTree = "<group>"; };
+		E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissborgTickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITests.swift; sourceTree = "<group>"; };
+		E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E35E5B280CE5B100BC4A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E6B280CE5B200BC4A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E75280CE5B200BC4A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E35E55280CE5B100BC4A42 = {
+			isa = PBXGroup;
+			children = (
+				E0E35E60280CE5B100BC4A42 /* SwissborgTickers */,
+				E0E35E71280CE5B200BC4A42 /* SwissborgTickersTests */,
+				E0E35E7B280CE5B200BC4A42 /* SwissborgTickersUITests */,
+				E0E35E5F280CE5B100BC4A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E35E5F280CE5B100BC4A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */,
+				E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */,
+				E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E35E60280CE5B100BC4A42 /* SwissborgTickers */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */,
+				E0E35E63280CE5B100BC4A42 /* ContentView.swift */,
+				E0E35E65280CE5B200BC4A42 /* Assets.xcassets */,
+				E0E35E67280CE5B200BC4A42 /* Preview Content */,
+			);
+			path = SwissborgTickers;
+			sourceTree = "<group>";
+		};
+		E0E35E67280CE5B200BC4A42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0E35E71280CE5B200BC4A42 /* SwissborgTickersTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */,
+			);
+			path = SwissborgTickersTests;
+			sourceTree = "<group>";
+		};
+		E0E35E7B280CE5B200BC4A42 /* SwissborgTickersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */,
+				E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */,
+			);
+			path = SwissborgTickersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E35E82280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickers" */;
+			buildPhases = (
+				E0E35E5A280CE5B100BC4A42 /* Sources */,
+				E0E35E5B280CE5B100BC4A42 /* Frameworks */,
+				E0E35E5C280CE5B100BC4A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwissborgTickers;
+			productName = SwissborgTickers;
+			productReference = E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E35E6D280CE5B200BC4A42 /* SwissborgTickersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E35E85280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersTests" */;
+			buildPhases = (
+				E0E35E6A280CE5B200BC4A42 /* Sources */,
+				E0E35E6B280CE5B200BC4A42 /* Frameworks */,
+				E0E35E6C280CE5B200BC4A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E35E70280CE5B200BC4A42 /* PBXTargetDependency */,
+			);
+			name = SwissborgTickersTests;
+			productName = SwissborgTickersTests;
+			productReference = E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E35E77280CE5B200BC4A42 /* SwissborgTickersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E35E88280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersUITests" */;
+			buildPhases = (
+				E0E35E74280CE5B200BC4A42 /* Sources */,
+				E0E35E75280CE5B200BC4A42 /* Frameworks */,
+				E0E35E76280CE5B200BC4A42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E35E7A280CE5B200BC4A42 /* PBXTargetDependency */,
+			);
+			name = SwissborgTickersUITests;
+			productName = SwissborgTickersUITests;
+			productReference = E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E35E56280CE5B100BC4A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E0E35E5D280CE5B100BC4A42 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E0E35E6D280CE5B200BC4A42 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E0E35E5D280CE5B100BC4A42;
+					};
+					E0E35E77280CE5B200BC4A42 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E0E35E5D280CE5B100BC4A42;
+					};
+				};
+			};
+			buildConfigurationList = E0E35E59280CE5B100BC4A42 /* Build configuration list for PBXProject "SwissborgTickers" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E35E55280CE5B100BC4A42;
+			productRefGroup = E0E35E5F280CE5B100BC4A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */,
+				E0E35E6D280CE5B200BC4A42 /* SwissborgTickersTests */,
+				E0E35E77280CE5B200BC4A42 /* SwissborgTickersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E35E5C280CE5B100BC4A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E35E69280CE5B200BC4A42 /* Preview Assets.xcassets in Resources */,
+				E0E35E66280CE5B200BC4A42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E6C280CE5B200BC4A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E76280CE5B200BC4A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E35E5A280CE5B100BC4A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */,
+				E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E6A280CE5B200BC4A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E35E74280CE5B200BC4A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */,
+				E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E35E70280CE5B200BC4A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */;
+			targetProxy = E0E35E6F280CE5B200BC4A42 /* PBXContainerItemProxy */;
+		};
+		E0E35E7A280CE5B200BC4A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */;
+			targetProxy = E0E35E79280CE5B200BC4A42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0E35E80280CE5B200BC4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0E35E81280CE5B200BC4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E35E83280CE5B200BC4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwissborgTickers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0E35E84280CE5B200BC4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwissborgTickers/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0E35E86280CE5B200BC4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissborgTickers.app/SwissborgTickers";
+			};
+			name = Debug;
+		};
+		E0E35E87280CE5B200BC4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissborgTickers.app/SwissborgTickers";
+			};
+			name = Release;
+		};
+		E0E35E89280CE5B200BC4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwissborgTickers;
+			};
+			name = Debug;
+		};
+		E0E35E8A280CE5B200BC4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwissborgTickers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E35E59280CE5B100BC4A42 /* Build configuration list for PBXProject "SwissborgTickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E35E80280CE5B200BC4A42 /* Debug */,
+				E0E35E81280CE5B200BC4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E35E82280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E35E83280CE5B200BC4A42 /* Debug */,
+				E0E35E84280CE5B200BC4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E35E85280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E35E86280CE5B200BC4A42 /* Debug */,
+				E0E35E87280CE5B200BC4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E35E88280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E35E89280CE5B200BC4A42 /* Debug */,
+				E0E35E8A280CE5B200BC4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E35E56280CE5B100BC4A42 /* Project object */;
+}
