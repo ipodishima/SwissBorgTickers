@@ -15,6 +15,13 @@
 		E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */; };
 		E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */; };
 		E0E35E8D280CE71B00BC4A42 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E0E35E8C280CE71B00BC4A42 /* RxMoya */; };
+		E0E35E94280CE98E00BC4A42 /* BitFinexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E93280CE98E00BC4A42 /* BitFinexService.swift */; };
+		E0E35E97280CEB0B00BC4A42 /* BitFinexEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E96280CEB0B00BC4A42 /* BitFinexEnvironment.swift */; };
+		E0E35E9A280CEC3400BC4A42 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E99280CEC3400BC4A42 /* AppSettings.swift */; };
+		E0E35E9C280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E9B280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift */; };
+		E0E35E9F280CEF0700BC4A42 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E9E280CEF0700BC4A42 /* String+Extensions.swift */; };
+		E0E35EA1280CEFEA00BC4A42 /* String+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35EA0280CEFEA00BC4A42 /* String+ExtensionsTests.swift */; };
+		E0E35EA3280CF07800BC4A42 /* BitFinexServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35EA2280CF07800BC4A42 /* BitFinexServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissborgTickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITests.swift; sourceTree = "<group>"; };
 		E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0E35E93280CE98E00BC4A42 /* BitFinexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexService.swift; sourceTree = "<group>"; };
+		E0E35E96280CEB0B00BC4A42 /* BitFinexEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexEnvironment.swift; sourceTree = "<group>"; };
+		E0E35E99280CEC3400BC4A42 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		E0E35E9B280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexEnvironmentTests.swift; sourceTree = "<group>"; };
+		E0E35E9E280CEF0700BC4A42 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E0E35EA0280CEFEA00BC4A42 /* String+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ExtensionsTests.swift"; sourceTree = "<group>"; };
+		E0E35EA2280CF07800BC4A42 /* BitFinexServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +110,13 @@
 		E0E35E60280CE5B100BC4A42 /* SwissborgTickers */ = {
 			isa = PBXGroup;
 			children = (
-				E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */,
-				E0E35E63280CE5B100BC4A42 /* ContentView.swift */,
 				E0E35E65280CE5B200BC4A42 /* Assets.xcassets */,
+				E0E35E63280CE5B100BC4A42 /* ContentView.swift */,
+				E0E35E9D280CEEF700BC4A42 /* Extensions */,
+				E0E35E91280CE97200BC4A42 /* Network */,
 				E0E35E67280CE5B200BC4A42 /* Preview Content */,
+				E0E35E98280CEC2400BC4A42 /* Settings */,
+				E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */,
 			);
 			path = SwissborgTickers;
 			sourceTree = "<group>";
@@ -127,6 +144,50 @@
 				E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */,
 			);
 			path = SwissborgTickersUITests;
+			sourceTree = "<group>";
+		};
+		E0E35E91280CE97200BC4A42 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E95280CEAFA00BC4A42 /* Environment */,
+				E0E35E92280CE97E00BC4A42 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E0E35E92280CE97E00BC4A42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E93280CE98E00BC4A42 /* BitFinexService.swift */,
+				E0E35EA2280CF07800BC4A42 /* BitFinexServiceTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E0E35E95280CEAFA00BC4A42 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E96280CEB0B00BC4A42 /* BitFinexEnvironment.swift */,
+				E0E35E9B280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		E0E35E98280CEC2400BC4A42 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E99280CEC3400BC4A42 /* AppSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E0E35E9D280CEEF700BC4A42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E9E280CEF0700BC4A42 /* String+Extensions.swift */,
+				E0E35EA0280CEFEA00BC4A42 /* String+ExtensionsTests.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +349,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */,
+				E0E35E94280CE98E00BC4A42 /* BitFinexService.swift in Sources */,
+				E0E35E97280CEB0B00BC4A42 /* BitFinexEnvironment.swift in Sources */,
+				E0E35E9A280CEC3400BC4A42 /* AppSettings.swift in Sources */,
+				E0E35E9F280CEF0700BC4A42 /* String+Extensions.swift in Sources */,
 				E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E35E9C280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift in Sources */,
 				E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */,
+				E0E35EA3280CF07800BC4A42 /* BitFinexServiceTests.swift in Sources */,
+				E0E35EA1280CEFEA00BC4A42 /* String+ExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
