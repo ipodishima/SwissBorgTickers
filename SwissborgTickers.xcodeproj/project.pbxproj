@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0D03178280CF7730041BC9F /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03177280CF7730041BC9F /* Ticker.swift */; };
+		E0D0317A280CFAC60041BC9F /* TickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03179280CFAC60041BC9F /* TickerTest.swift */; };
 		E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */; };
 		E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E63280CE5B100BC4A42 /* ContentView.swift */; };
 		E0E35E66280CE5B200BC4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E35E65280CE5B200BC4A42 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0D03177280CF7730041BC9F /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
+		E0D03179280CFAC60041BC9F /* TickerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTest.swift; sourceTree = "<group>"; };
 		E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissborgTickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersApp.swift; sourceTree = "<group>"; };
 		E0E35E63280CE5B100BC4A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0D03176280CF7690041BC9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0D03177280CF7730041BC9F /* Ticker.swift */,
+				E0D03179280CFAC60041BC9F /* TickerTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E0E35E55280CE5B100BC4A42 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +162,7 @@
 		E0E35E91280CE97200BC4A42 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E0D03176280CF7690041BC9F /* Model */,
 				E0E35E95280CEAFA00BC4A42 /* Environment */,
 				E0E35E92280CE97E00BC4A42 /* Services */,
 			);
@@ -350,6 +364,7 @@
 			files = (
 				E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */,
 				E0E35E94280CE98E00BC4A42 /* BitFinexService.swift in Sources */,
+				E0D03178280CF7730041BC9F /* Ticker.swift in Sources */,
 				E0E35E97280CEB0B00BC4A42 /* BitFinexEnvironment.swift in Sources */,
 				E0E35E9A280CEC3400BC4A42 /* AppSettings.swift in Sources */,
 				E0E35E9F280CEF0700BC4A42 /* String+Extensions.swift in Sources */,
@@ -362,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E35E9C280CEE1B00BC4A42 /* BitFinexEnvironmentTests.swift in Sources */,
+				E0D0317A280CFAC60041BC9F /* TickerTest.swift in Sources */,
 				E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */,
 				E0E35EA3280CF07800BC4A42 /* BitFinexServiceTests.swift in Sources */,
 				E0E35EA1280CEFEA00BC4A42 /* String+ExtensionsTests.swift in Sources */,

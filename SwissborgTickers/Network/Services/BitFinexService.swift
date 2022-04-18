@@ -9,9 +9,9 @@ import Foundation
 import Moya
 
 enum BitFinexService {
-    case tickers(symbols: [TickersSymbols])
+    case tickers(symbols: [TickerSymbol])
     
-    enum TickersSymbols: String, CaseIterable {
+    enum TickerSymbol: String, CaseIterable, Decodable {
         case tBTCUSD
         case tETHUSD
         case tCHSBUSD = "tCHSB:USD"
