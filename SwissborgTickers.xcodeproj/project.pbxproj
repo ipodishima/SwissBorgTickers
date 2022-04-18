@@ -14,6 +14,7 @@
 		E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */; };
 		E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */; };
 		E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */; };
+		E0E35E8D280CE71B00BC4A42 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E0E35E8C280CE71B00BC4A42 /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E35E8D280CE71B00BC4A42 /* RxMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +139,16 @@
 				E0E35E5A280CE5B100BC4A42 /* Sources */,
 				E0E35E5B280CE5B100BC4A42 /* Frameworks */,
 				E0E35E5C280CE5B100BC4A42 /* Resources */,
+				E0E35E8E280CE7D000BC4A42 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwissborgTickers;
+			packageProductDependencies = (
+				E0E35E8C280CE71B00BC4A42 /* RxMoya */,
+			);
 			productName = SwissborgTickers;
 			productReference = E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +221,9 @@
 				Base,
 			);
 			mainGroup = E0E35E55280CE5B100BC4A42;
+			packageReferences = (
+				E0E35E8B280CE71B00BC4A42 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = E0E35E5F280CE5B100BC4A42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,6 +260,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0E35E8E280CE7D000BC4A42 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0E35E5A280CE5B100BC4A42 /* Sources */ = {
@@ -579,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0E35E8B280CE71B00BC4A42 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0E35E8C280CE71B00BC4A42 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0E35E8B280CE71B00BC4A42 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0E35E56280CE5B100BC4A42 /* Project object */;
 }
