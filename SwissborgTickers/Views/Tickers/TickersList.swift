@@ -32,15 +32,15 @@ struct TickersList<ViewModel: TickersListViewModelProtocol>: View {
     
     @ViewBuilder private var initialLoadingErrorView: some View {
         VStack {
-            Text("An error occured. Please try again")
-            Button("Retry", action: viewModel.startPolling)
+            Text("error.initial.loading")
+            Button("retry.action", action: viewModel.startPolling)
         }
     }
     
     @ViewBuilder private var listView: some View {
         VStack {
             if viewModel.state.pollingError != nil {
-                Text("An error occurred. Try again or wait for the next refresh.")
+                Text("error.polling.try.again")
                     .foregroundColor(Theme.Color.error)
                     .font(Theme.Font.caption)
             }
@@ -54,7 +54,7 @@ struct TickersList<ViewModel: TickersListViewModelProtocol>: View {
             }
             .listStyle(.plain)
         }
-        .navigationTitle("Tickers")
+        .navigationTitle("tickers.title")
         .searchable(text: $viewModel.searchText)
         .autocapitalization(.none)
         .refreshable {

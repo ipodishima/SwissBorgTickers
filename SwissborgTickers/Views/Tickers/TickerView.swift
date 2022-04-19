@@ -25,8 +25,7 @@ struct TickerView: View {
                         .lineLimit(1)
                     HStack {
                         if isEarnYield {
-                            // Should be translated as well
-                            Text("EARN YIELD")
+                            Text("earn.yield")
                                 .foregroundColor(Theme.Color.textOnColor)
                                 .font(Theme.Font.caption)
                                 .padding(Constants.earnYieldCapsulePadding)
