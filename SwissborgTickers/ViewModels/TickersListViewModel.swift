@@ -48,21 +48,17 @@ class TickersListViewModel: TickersListViewModelProtocol {
         // Cancel any previous polling
         pollingDisposable?.dispose()
         
-        /// Start a polling
+        // Start a polling
         self.pollingDisposable = Observable<Int>
             .interval(.seconds(Constants.pollingInterval), scheduler: MainScheduler.instance)
             // Start now
             .startWith(0)
             // Update the loading state
             .do(onNext: { _ in
-                if self.lastTickers.isEmpty {
-                    self.state = .loading
-                } else {
-                    self.state = .refreshing
-                }
+                self.state = self.lastTickers.isEmpty ? .loading : .refreshing
             })
             .flatMapLatest { _ in
-                // Fetch the API and materialize to avoid ending the observable
+                // Fetch the API and materialize to avoid ending the observable in case of an error
                 self.provider.rx.request(.tickers(symbols: BitFinexService.TickerSymbol.allCases))
                     .asObservable()
                     .materialize()
@@ -97,7 +93,7 @@ class TickersListViewModel: TickersListViewModelProtocol {
     }
     
     private func updateFromAPI(error: Error) {
-        state = .failed(error, context: self.lastTickers.isEmpty ? .initial : .refresh)
+        state = .failed(error, context: lastTickers.isEmpty ? .initial : .refresh)
     }
     
     private func bindSearch() {

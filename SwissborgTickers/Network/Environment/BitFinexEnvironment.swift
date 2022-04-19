@@ -11,12 +11,6 @@ enum BitFinexEnvironment {
     case production
     
     var baseURL: URL {
-        let host: String
-        switch self {
-        case .production:
-            host = "api-pub.bitfinex.com"
-        }
-        
         var urlComponents = URLComponents()
         urlComponents.scheme = scheme
         urlComponents.host = host
@@ -26,6 +20,15 @@ enum BitFinexEnvironment {
             fatalError("The URL is not valid")
         }
         return url
+    }
+    
+    private var host: String {
+        let host: String
+        switch self {
+        case .production:
+            host = "api-pub.bitfinex.com"
+        }
+        return host
     }
     
     private var scheme: String {
