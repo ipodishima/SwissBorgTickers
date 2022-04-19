@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0BF6448280DC6BE00168D99 /* TickersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF6447280DC6BE00168D99 /* TickersList.swift */; };
+		E0BF644B280DC6D600168D99 /* TickersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF644A280DC6D600168D99 /* TickersListViewModel.swift */; };
+		E0BF6450280DDE7500168D99 /* PollingLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF644F280DDE7500168D99 /* PollingLoadingState.swift */; };
+		E0BF6456280E523000168D99 /* TTCommons-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D0318D280DA1510041BC9F /* TTCommons-DemiBold.ttf */; };
+		E0BF6457280E523300168D99 /* TTCommons-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D0318C280DA1510041BC9F /* TTCommons-Medium.ttf */; };
+		E0BF6458280E523500168D99 /* TTCommons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D0318E280DA1510041BC9F /* TTCommons-Regular.ttf */; };
+		E0BF645A280E53B300168D99 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF6459280E53B300168D99 /* View+Extensions.swift */; };
+		E0BF645C280E562E00168D99 /* Float+ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF645B280E562E00168D99 /* Float+ExtensionsTests.swift */; };
 		E0D03178280CF7730041BC9F /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03177280CF7730041BC9F /* Ticker.swift */; };
 		E0D0317A280CFAC60041BC9F /* TickerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03179280CFAC60041BC9F /* TickerTest.swift */; };
+		E0D0317F280CFDCD0041BC9F /* TickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0317E280CFDCD0041BC9F /* TickerView.swift */; };
+		E0D03181280D06D60041BC9F /* Ticker+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03180280D06D60041BC9F /* Ticker+UI.swift */; };
+		E0D03183280D08910041BC9F /* TickerSymbol+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03182280D08910041BC9F /* TickerSymbol+Extensions.swift */; };
+		E0D03190280DA3980041BC9F /* Font+SwissBorg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0318F280DA3980041BC9F /* Font+SwissBorg.swift */; };
+		E0D03192280DA49D0041BC9F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03191280DA49D0041BC9F /* Theme.swift */; };
+		E0D03195280DA83C0041BC9F /* GraphLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03194280DA83C0041BC9F /* GraphLineView.swift */; };
+		E0D03197280DB2F40041BC9F /* FakeGraphValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03196280DB2F40041BC9F /* FakeGraphValue.swift */; };
+		E0D03199280DBA510041BC9F /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D03198280DBA510041BC9F /* Image+Extensions.swift */; };
+		E0D0319B280DBF050041BC9F /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0319A280DBF050041BC9F /* Float+Extensions.swift */; };
 		E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */; };
-		E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E63280CE5B100BC4A42 /* ContentView.swift */; };
 		E0E35E66280CE5B200BC4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E35E65280CE5B200BC4A42 /* Assets.xcassets */; };
 		E0E35E69280CE5B200BC4A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */; };
 		E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */; };
-		E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */; };
-		E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */; };
 		E0E35E8D280CE71B00BC4A42 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E0E35E8C280CE71B00BC4A42 /* RxMoya */; };
 		E0E35E94280CE98E00BC4A42 /* BitFinexService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E93280CE98E00BC4A42 /* BitFinexService.swift */; };
 		E0E35E97280CEB0B00BC4A42 /* BitFinexEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E35E96280CEB0B00BC4A42 /* BitFinexEnvironment.swift */; };
@@ -34,28 +48,35 @@
 			remoteGlobalIDString = E0E35E5D280CE5B100BC4A42;
 			remoteInfo = SwissborgTickers;
 		};
-		E0E35E79280CE5B200BC4A42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0E35E56280CE5B100BC4A42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0E35E5D280CE5B100BC4A42;
-			remoteInfo = SwissborgTickers;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0BF6447280DC6BE00168D99 /* TickersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersList.swift; sourceTree = "<group>"; };
+		E0BF644A280DC6D600168D99 /* TickersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersListViewModel.swift; sourceTree = "<group>"; };
+		E0BF644F280DDE7500168D99 /* PollingLoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingLoadingState.swift; sourceTree = "<group>"; };
+		E0BF6459280E53B300168D99 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		E0BF645B280E562E00168D99 /* Float+ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+ExtensionsTests.swift"; sourceTree = "<group>"; };
 		E0D03177280CF7730041BC9F /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
 		E0D03179280CFAC60041BC9F /* TickerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTest.swift; sourceTree = "<group>"; };
+		E0D0317E280CFDCD0041BC9F /* TickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; };
+		E0D03180280D06D60041BC9F /* Ticker+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ticker+UI.swift"; sourceTree = "<group>"; };
+		E0D03182280D08910041BC9F /* TickerSymbol+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TickerSymbol+Extensions.swift"; sourceTree = "<group>"; };
+		E0D0318A280D0B9C0041BC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E0D0318C280DA1510041BC9F /* TTCommons-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTCommons-Medium.ttf"; sourceTree = "<group>"; };
+		E0D0318D280DA1510041BC9F /* TTCommons-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTCommons-DemiBold.ttf"; sourceTree = "<group>"; };
+		E0D0318E280DA1510041BC9F /* TTCommons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTCommons-Regular.ttf"; sourceTree = "<group>"; };
+		E0D0318F280DA3980041BC9F /* Font+SwissBorg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+SwissBorg.swift"; sourceTree = "<group>"; };
+		E0D03191280DA49D0041BC9F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E0D03194280DA83C0041BC9F /* GraphLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphLineView.swift; sourceTree = "<group>"; };
+		E0D03196280DB2F40041BC9F /* FakeGraphValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeGraphValue.swift; sourceTree = "<group>"; };
+		E0D03198280DBA510041BC9F /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		E0D0319A280DBF050041BC9F /* Float+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
 		E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissborgTickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersApp.swift; sourceTree = "<group>"; };
-		E0E35E63280CE5B100BC4A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0E35E65280CE5B200BC4A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissborgTickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersTests.swift; sourceTree = "<group>"; };
-		E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissborgTickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITests.swift; sourceTree = "<group>"; };
-		E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissborgTickersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E0E35E93280CE98E00BC4A42 /* BitFinexService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexService.swift; sourceTree = "<group>"; };
 		E0E35E96280CEB0B00BC4A42 /* BitFinexEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitFinexEnvironment.swift; sourceTree = "<group>"; };
 		E0E35E99280CEC3400BC4A42 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
@@ -81,16 +102,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E35E75280CE5B200BC4A42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0BF6449280DC6C800168D99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF644A280DC6D600168D99 /* TickersListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E0BF644E280DDE6C00168D99 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF644F280DDE7500168D99 /* PollingLoadingState.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E0BF6455280E3FAE00168D99 /* Tickers */ = {
+			isa = PBXGroup;
+			children = (
+				E0BF6447280DC6BE00168D99 /* TickersList.swift */,
+				E0D0317E280CFDCD0041BC9F /* TickerView.swift */,
+			);
+			path = Tickers;
+			sourceTree = "<group>";
+		};
 		E0D03176280CF7690041BC9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +139,40 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E0D0317B280CFDB30041BC9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0D03193280DA82D0041BC9F /* Graph */,
+				E0D03191280DA49D0041BC9F /* Theme.swift */,
+				E0BF6455280E3FAE00168D99 /* Tickers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0D0318B280DA1510041BC9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0E35E65280CE5B200BC4A42 /* Assets.xcassets */,
+				E0D0318D280DA1510041BC9F /* TTCommons-DemiBold.ttf */,
+				E0D0318C280DA1510041BC9F /* TTCommons-Medium.ttf */,
+				E0D0318E280DA1510041BC9F /* TTCommons-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0D03193280DA82D0041BC9F /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				E0D03194280DA83C0041BC9F /* GraphLineView.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		E0E35E55280CE5B100BC4A42 = {
 			isa = PBXGroup;
 			children = (
 				E0E35E60280CE5B100BC4A42 /* SwissborgTickers */,
 				E0E35E71280CE5B200BC4A42 /* SwissborgTickersTests */,
-				E0E35E7B280CE5B200BC4A42 /* SwissborgTickersUITests */,
 				E0E35E5F280CE5B100BC4A42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +182,6 @@
 			children = (
 				E0E35E5E280CE5B100BC4A42 /* SwissborgTickers.app */,
 				E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */,
-				E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,13 +189,16 @@
 		E0E35E60280CE5B100BC4A42 /* SwissborgTickers */ = {
 			isa = PBXGroup;
 			children = (
-				E0E35E65280CE5B200BC4A42 /* Assets.xcassets */,
-				E0E35E63280CE5B100BC4A42 /* ContentView.swift */,
+				E0BF644E280DDE6C00168D99 /* Common */,
 				E0E35E9D280CEEF700BC4A42 /* Extensions */,
+				E0D0318A280D0B9C0041BC9F /* Info.plist */,
 				E0E35E91280CE97200BC4A42 /* Network */,
 				E0E35E67280CE5B200BC4A42 /* Preview Content */,
+				E0D0318B280DA1510041BC9F /* Resources */,
 				E0E35E98280CEC2400BC4A42 /* Settings */,
 				E0E35E61280CE5B100BC4A42 /* SwissborgTickersApp.swift */,
+				E0BF6449280DC6C800168D99 /* ViewModels */,
+				E0D0317B280CFDB30041BC9F /* Views */,
 			);
 			path = SwissborgTickers;
 			sourceTree = "<group>";
@@ -138,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				E0E35E68280CE5B200BC4A42 /* Preview Assets.xcassets */,
+				E0D03196280DB2F40041BC9F /* FakeGraphValue.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -148,15 +218,6 @@
 				E0E35E72280CE5B200BC4A42 /* SwissborgTickersTests.swift */,
 			);
 			path = SwissborgTickersTests;
-			sourceTree = "<group>";
-		};
-		E0E35E7B280CE5B200BC4A42 /* SwissborgTickersUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E0E35E7C280CE5B200BC4A42 /* SwissborgTickersUITests.swift */,
-				E0E35E7E280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift */,
-			);
-			path = SwissborgTickersUITests;
 			sourceTree = "<group>";
 		};
 		E0E35E91280CE97200BC4A42 /* Network */ = {
@@ -198,8 +259,15 @@
 		E0E35E9D280CEEF700BC4A42 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E0D0319A280DBF050041BC9F /* Float+Extensions.swift */,
+				E0BF645B280E562E00168D99 /* Float+ExtensionsTests.swift */,
+				E0D0318F280DA3980041BC9F /* Font+SwissBorg.swift */,
+				E0D03198280DBA510041BC9F /* Image+Extensions.swift */,
 				E0E35E9E280CEF0700BC4A42 /* String+Extensions.swift */,
 				E0E35EA0280CEFEA00BC4A42 /* String+ExtensionsTests.swift */,
+				E0D03180280D06D60041BC9F /* Ticker+UI.swift */,
+				E0D03182280D08910041BC9F /* TickerSymbol+Extensions.swift */,
+				E0BF6459280E53B300168D99 /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -214,7 +282,6 @@
 				E0E35E5A280CE5B100BC4A42 /* Sources */,
 				E0E35E5B280CE5B100BC4A42 /* Frameworks */,
 				E0E35E5C280CE5B100BC4A42 /* Resources */,
-				E0E35E8E280CE7D000BC4A42 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -246,24 +313,6 @@
 			productReference = E0E35E6E280CE5B200BC4A42 /* SwissborgTickersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E0E35E77280CE5B200BC4A42 /* SwissborgTickersUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0E35E88280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersUITests" */;
-			buildPhases = (
-				E0E35E74280CE5B200BC4A42 /* Sources */,
-				E0E35E75280CE5B200BC4A42 /* Frameworks */,
-				E0E35E76280CE5B200BC4A42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0E35E7A280CE5B200BC4A42 /* PBXTargetDependency */,
-			);
-			name = SwissborgTickersUITests;
-			productName = SwissborgTickersUITests;
-			productReference = E0E35E78280CE5B200BC4A42 /* SwissborgTickersUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,10 +327,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					E0E35E6D280CE5B200BC4A42 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = E0E35E5D280CE5B100BC4A42;
-					};
-					E0E35E77280CE5B200BC4A42 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = E0E35E5D280CE5B100BC4A42;
 					};
@@ -305,7 +350,6 @@
 			targets = (
 				E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */,
 				E0E35E6D280CE5B200BC4A42 /* SwissborgTickersTests */,
-				E0E35E77280CE5B200BC4A42 /* SwissborgTickersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +359,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BF6456280E523000168D99 /* TTCommons-DemiBold.ttf in Resources */,
 				E0E35E69280CE5B200BC4A42 /* Preview Assets.xcassets in Resources */,
+				E0BF6458280E523500168D99 /* TTCommons-Regular.ttf in Resources */,
+				E0BF6457280E523300168D99 /* TTCommons-Medium.ttf in Resources */,
 				E0E35E66280CE5B200BC4A42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,48 +374,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E35E76280CE5B200BC4A42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		E0E35E8E280CE7D000BC4A42 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0E35E5A280CE5B100BC4A42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E35E64280CE5B100BC4A42 /* ContentView.swift in Sources */,
+				E0D0317F280CFDCD0041BC9F /* TickerView.swift in Sources */,
 				E0E35E94280CE98E00BC4A42 /* BitFinexService.swift in Sources */,
+				E0BF6448280DC6BE00168D99 /* TickersList.swift in Sources */,
 				E0D03178280CF7730041BC9F /* Ticker.swift in Sources */,
 				E0E35E97280CEB0B00BC4A42 /* BitFinexEnvironment.swift in Sources */,
+				E0D03197280DB2F40041BC9F /* FakeGraphValue.swift in Sources */,
+				E0D03199280DBA510041BC9F /* Image+Extensions.swift in Sources */,
+				E0BF644B280DC6D600168D99 /* TickersListViewModel.swift in Sources */,
 				E0E35E9A280CEC3400BC4A42 /* AppSettings.swift in Sources */,
+				E0D0319B280DBF050041BC9F /* Float+Extensions.swift in Sources */,
 				E0E35E9F280CEF0700BC4A42 /* String+Extensions.swift in Sources */,
+				E0BF645A280E53B300168D99 /* View+Extensions.swift in Sources */,
+				E0D03183280D08910041BC9F /* TickerSymbol+Extensions.swift in Sources */,
+				E0D03190280DA3980041BC9F /* Font+SwissBorg.swift in Sources */,
+				E0D03192280DA49D0041BC9F /* Theme.swift in Sources */,
+				E0D03181280D06D60041BC9F /* Ticker+UI.swift in Sources */,
 				E0E35E62280CE5B100BC4A42 /* SwissborgTickersApp.swift in Sources */,
+				E0BF6450280DDE7500168D99 /* PollingLoadingState.swift in Sources */,
+				E0D03195280DA83C0041BC9F /* GraphLineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,16 +411,8 @@
 				E0D0317A280CFAC60041BC9F /* TickerTest.swift in Sources */,
 				E0E35E73280CE5B200BC4A42 /* SwissborgTickersTests.swift in Sources */,
 				E0E35EA3280CF07800BC4A42 /* BitFinexServiceTests.swift in Sources */,
+				E0BF645C280E562E00168D99 /* Float+ExtensionsTests.swift in Sources */,
 				E0E35EA1280CEFEA00BC4A42 /* String+ExtensionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0E35E74280CE5B200BC4A42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0E35E7F280CE5B200BC4A42 /* SwissborgTickersUITestsLaunchTests.swift in Sources */,
-				E0E35E7D280CE5B200BC4A42 /* SwissborgTickersUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,11 +423,6 @@
 			isa = PBXTargetDependency;
 			target = E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */;
 			targetProxy = E0E35E6F280CE5B200BC4A42 /* PBXContainerItemProxy */;
-		};
-		E0E35E7A280CE5B200BC4A42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E0E35E5D280CE5B100BC4A42 /* SwissborgTickers */;
-			targetProxy = E0E35E79280CE5B200BC4A42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -535,6 +553,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwissborgTickers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwissborgTickers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -563,6 +582,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwissborgTickers/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwissborgTickers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -619,40 +639,6 @@
 			};
 			name = Release;
 		};
-		E0E35E89280CE5B200BC4A42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwissborgTickers;
-			};
-			name = Debug;
-		};
-		E0E35E8A280CE5B200BC4A42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = li.wasapp.SwissborgTickersUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwissborgTickers;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,15 +665,6 @@
 			buildConfigurations = (
 				E0E35E86280CE5B200BC4A42 /* Debug */,
 				E0E35E87280CE5B200BC4A42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0E35E88280CE5B200BC4A42 /* Build configuration list for PBXNativeTarget "SwissborgTickersUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0E35E89280CE5B200BC4A42 /* Debug */,
-				E0E35E8A280CE5B200BC4A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

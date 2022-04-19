@@ -11,7 +11,9 @@ import SwiftUI
 struct SwissborgTickersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                TickersList(viewModel: TickersListViewModel())
+            }
         }
     }
 }
