@@ -38,9 +38,7 @@ struct TickerView: View {
                             .foregroundColor(Theme.Color.black)
                             .lineLimit(1)
                     }
-                    .fixedSize(horizontal: true, vertical: false)
                 }
-                .fixedSize(horizontal: true, vertical: false)
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text(ticker.lastPrice.formatted(.currency(code: ticker.symbol.currencyCode)))
@@ -87,14 +85,21 @@ struct TickerView: View {
 struct TickerView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            TickerView(ticker: DataSet.btcUSD, isEarnYield: true, graphValues: [])
-            TickerView(ticker: DataSet.btcUSD, isEarnYield: false, graphValues: [])
-            TickerView(ticker: DataSet.btcUSD, isEarnYield: false, graphValues: FakeGraphValue.eth.values)
-            TickerView(ticker: DataSet.ethUSD, isEarnYield: true, graphValues: [])
-            TickerView(ticker: DataSet.ltcUSD, isEarnYield: true, graphValues: [])
+            Group {
+                TickerView(ticker: DataSet.btcUSD, isEarnYield: true, graphValues: [])
+                TickerView(ticker: DataSet.btcUSD, isEarnYield: false, graphValues: [])
+                TickerView(ticker: DataSet.btcUSD, isEarnYield: false, graphValues: FakeGraphValue.eth.values)
+                TickerView(ticker: DataSet.ethUSD, isEarnYield: true, graphValues: [])
+                TickerView(ticker: DataSet.ltcUSD, isEarnYield: true, graphValues: [])
+            }
+            .padding(.all, 10)
+            .previewLayout(.sizeThatFits)
         }
-        .padding(.all, 10)
-        .previewLayout(.sizeThatFits)
+        
+        List {
+            TickerView(ticker: DataSet.btcUSD, isEarnYield: true, graphValues: [])
+        }
+        .listStyle(.plain)
     }
     
     private enum DataSet {
