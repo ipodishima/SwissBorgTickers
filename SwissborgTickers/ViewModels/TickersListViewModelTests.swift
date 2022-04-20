@@ -185,7 +185,7 @@ class TickersListViewModelTests: XCTestCase {
                          httpHeaderFields: target.headers)
         },
                      stubClosure: { _ in .immediate },
-                     callbackQueue: .main)
+                     callbackQueue: .main) // If we don't specify a main queue, tests are failing. Probably a race condition
     }
 }
 

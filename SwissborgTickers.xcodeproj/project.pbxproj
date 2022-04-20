@@ -65,6 +65,7 @@
 		E0BF6463280F86D900168D99 /* TickersListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickersListViewModelTests.swift; sourceTree = "<group>"; };
 		E0BF6465280F8E4100168D99 /* XCTestCase+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Combine.swift"; sourceTree = "<group>"; };
 		E0BF6467280F90B600168D99 /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		E0BF646C280FA93600168D99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0D03177280CF7730041BC9F /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
 		E0D03179280CFAC60041BC9F /* TickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerTests.swift; sourceTree = "<group>"; };
 		E0D0317E280CFDCD0041BC9F /* TickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerView.swift; sourceTree = "<group>"; };
@@ -182,6 +183,7 @@
 		E0E35E55280CE5B100BC4A42 = {
 			isa = PBXGroup;
 			children = (
+				E0BF646C280FA93600168D99 /* README.md */,
 				E0E35E60280CE5B100BC4A42 /* SwissborgTickers */,
 				E0E35E71280CE5B200BC4A42 /* SwissborgTickersTests */,
 				E0E35E5F280CE5B100BC4A42 /* Products */,
