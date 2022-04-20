@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents the API environment
 enum BitFinexEnvironment {
     case production
     

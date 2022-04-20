@@ -43,6 +43,7 @@ struct TickersList<ViewModel: TickersListViewModelProtocol>: View {
                 Text("error.polling.try.again")
                     .foregroundColor(Theme.Color.error)
                     .font(Theme.Font.caption)
+                    .padding()
             }
             
             List(viewModel.toDisplay) { dataObject in

@@ -1,5 +1,5 @@
 //
-//  TickerTest.swift
+//  TickerTests.swift
 //  SwissborgTickersTests
 //
 //  Created by Marian Paul on 2022-04-17.
@@ -8,7 +8,7 @@
 @testable import SwissborgTickers
 import XCTest
 
-class TickerTest: XCTestCase {
+class TickerTests: XCTestCase {
 
     func test_decodable_whenCalled_decodesCorrectly() throws {
         // Arrange

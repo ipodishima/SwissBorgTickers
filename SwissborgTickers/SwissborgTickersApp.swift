@@ -14,6 +14,7 @@ struct SwissborgTickersApp: App {
             NavigationView {
                 TickersList(viewModel: TickersListViewModel())
             }
+            // Full screen on iPad
             .navigationViewStyle(.stack)
         }
     }

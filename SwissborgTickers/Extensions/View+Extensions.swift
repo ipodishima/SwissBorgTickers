@@ -8,6 +8,7 @@
 import SwiftUI
 
 // From https://stackoverflow.com/a/59228385
+// Should be part of SwiftUI itself
 extension View {
     /// Hide or show the view based on a boolean value.
     ///

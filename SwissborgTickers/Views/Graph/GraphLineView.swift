@@ -51,7 +51,7 @@ struct GraphLineView: View {
         }
         
         private func yPosition(index: Int, height: CGFloat) -> CGFloat {
-            height * (1-ratio(for: index))
+            height * (1 - ratio(for: index))
         }
         
         private var highestPoint: Double {
